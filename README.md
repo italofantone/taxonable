@@ -1,4 +1,4 @@
-# About Sluggable
+# About Taxonable
 
 A Laravel package to manage flexible content taxonomy with taggable support for Eloquent models.
 
