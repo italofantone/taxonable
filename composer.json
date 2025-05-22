@@ -13,6 +13,7 @@
         "orchestra/testbench": "^10.3",
         "phpunit/phpunit": "^12.1"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Italofantone\\Taxonable\\": "src/"
