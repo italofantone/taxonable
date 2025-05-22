@@ -1,0 +1,39 @@
+{
+    "name": "italofantone/taxonable",
+    "description": "A Laravel package to manage flexible content taxonomy with taggable support for Eloquent models.",
+    "keywords": ["taxonomy", "tags", "taggable", "eloquent", "laravel", "content-classification"],
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "italofantone/sluggable": "^2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.3",
+        "phpunit/phpunit": "^12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Italofantone\\Taxonable\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Italofantone\\Taxonable\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Italo Morales Fantone",
+            "email": "i@rimorsoft.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Italofantone\\Taxonable\\TaxonomyServiceProvider"
+            ]
+        }
+    }
+}
